@@ -6,16 +6,16 @@ import FlyingObjectTop from './FlyingObjectTop';
 import { gameHeight } from '../utils/constants';
 
 const moveVertically = keyframes`
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(${gameHeight}px);
-  }
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(${gameHeight}px);
+    }
 `;
 
 const Move = styled.g`
-  animation: ${moveVertically} 4s linear;
+    animation: ${moveVertically} 4s linear;
 `;
 
 const FlyingObject = (props: { position: IObjectPosition }) => (
