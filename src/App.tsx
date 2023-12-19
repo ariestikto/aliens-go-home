@@ -74,6 +74,7 @@ App.propTypes = {
     }).isRequired,
     moveObjects: PropTypes.func.isRequired,
     shoot: PropTypes.func.isRequired,
+    asfdsdf
 };
 
 export default App;
